@@ -26,7 +26,7 @@ public class FileStreamSinkTaskTest extends EasyMockSupport{
         task = new FileStreamSinkTask(printStream);
     }
 
-    //some comment
+    //some comment again
     @Test
     public void testPutFlush() {
         HashMap<TopicPartition, OffsetAndMetadata> offsets = new HashMap<>();
